@@ -2,7 +2,7 @@ from random import randint
 
 
 class Balde:
-    '''Criando Balde'''
+    """Classe jogo"""
 
     def __init__(self):
         self.capacidade = randint(10, 50)
@@ -10,7 +10,7 @@ class Balde:
 
 
 class Jogo:
-    '''Classe jogo'''    
+    """Classe jogo"""
 
     def __init__(self):
         self.balde = Balde()
@@ -18,7 +18,7 @@ class Jogo:
 
     def nova_rodada(self):
         self.rodada += 1
-    
+
     def aviso_balde(self):
         capacidade = self.balde.capacidade
         agua = self.balde.agua
@@ -29,10 +29,10 @@ class Jogo:
         print(f'Rodada {self.rodada}!')
 
     def adicionar_agua(self):
-        quantidade = randint(1,7)
+        quantidade = randint(1, 7)
         print('Foi adicionada mais agua!')
         self.balde.agua += quantidade
-        
+
     def fim_de_jogo(self):
         if self.balde.agua > self.balde.capacidade:
             print(f'''
@@ -49,4 +49,3 @@ class Jogo:
     def checar_resultado(self):
         if self.balde.agua > self.balde.capacidade:
             return True
- 
