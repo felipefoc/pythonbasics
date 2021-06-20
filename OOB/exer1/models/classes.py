@@ -2,16 +2,16 @@ from random import randint
 
 
 class Balde:
+    """ Criando Balde """
 
-    '''Criando Balde'''
     def __init__(self):
         self.capacidade = randint(10, 50)
         self.agua = 0
 
 
 class Jogo:
-
-    '''Classe jogo'''
+    """ Classe jogo """
+    
     def __init__(self):
         self.balde = Balde()
         self.rodada = 1
