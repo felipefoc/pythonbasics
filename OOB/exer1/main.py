@@ -1,10 +1,10 @@
 import time
-from controllers.helper import cls
+from controllers.helper import cls, novo_jogo
 from models.classes import Jogo
 
 
 def main():
-    jogo.novo_jogo()
+    novo_jogo()
     while True:
         cls()
         jogo.saber_rodada()
@@ -27,3 +27,4 @@ def main():
 if __name__ == '__main__':
     jogo = Jogo()
     main()
+    
