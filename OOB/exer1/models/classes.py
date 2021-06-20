@@ -2,16 +2,18 @@ from random import randint
 
 
 class Balde:
+
     """Classe Balde"""
 
     def __init__(self):
         self.capacidade = randint(10, 50)
         self.agua = 0
-
+        
 
 class Jogo:
+
     """Classe Jogo"""
-    
+
     def __init__(self):
         self.balde = Balde()
         self.rodada = 1
