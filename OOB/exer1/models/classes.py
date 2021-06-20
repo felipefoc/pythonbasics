@@ -2,7 +2,7 @@ from random import randint
 
 
 class Balde:
-    """Classe jogo"""
+    """Classe Balde"""
 
     def __init__(self):
         self.capacidade = randint(10, 50)
@@ -10,8 +10,8 @@ class Balde:
 
 
 class Jogo:
-    """Classe jogo"""
-
+    """Classe Jogo"""
+    
     def __init__(self):
         self.balde = Balde()
         self.rodada = 1
