@@ -10,7 +10,7 @@ class Balde:
 
 
 class Jogo:
-    """ Classe jogo """
+    """ Classe jogo """    
     
     def __init__(self):
         self.balde = Balde()
