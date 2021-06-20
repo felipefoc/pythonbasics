@@ -27,13 +27,7 @@ def start_game():
 
 
 def main():
-<<<<<<< ours
     start_game()
-=======
-    game = start_game()
-    game2 = start_game()
->>>>>>> theirs
-
 
 if __name__ == '__main__':
     main()
