@@ -2,7 +2,6 @@ from random import randint
 
 
 class Balde:
-
     '''Criando Balde'''
 
     def __init__(self):
@@ -11,7 +10,6 @@ class Balde:
 
 
 class Jogo:
-    
     '''Classe jogo'''    
 
     def __init__(self):
