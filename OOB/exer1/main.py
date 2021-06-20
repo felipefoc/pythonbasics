@@ -3,8 +3,9 @@ from controllers.helper import cls, novo_jogo
 from models.classes import Jogo
 
 
-def main():
+def start_game():
     novo_jogo()
+    jogo = Jogo()
     while True:
         cls()
         jogo.saber_rodada()
@@ -24,7 +25,15 @@ def main():
             jogo.fim_de_jogo()
             break
 
+
+def main():
+<<<<<<< ours
+    start_game()
+=======
+    game = start_game()
+    game2 = start_game()
+>>>>>>> theirs
+
+
 if __name__ == '__main__':
-    jogo = Jogo()
     main()
-    
